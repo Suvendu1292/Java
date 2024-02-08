@@ -1,0 +1,66 @@
+Module-1 Exercise(Java Basics)
+Here is a set of few exercises which you might want to perform in order to brush up your coding skills:
+1.	Make an invitation to a birthday party at your place. Input your friend's name and print the message :
+"Hey <friendName>, it's my birthday this weekend and you are invited to the party at my place. Bring gifts!!! "
+Example -
+Input: Tom
+Output: Hey Tom, it's my birthday this weekend and you are invited to the party at my place. Bring gifts!!!
+2.	You work in pairs in the computer lab. Play a prank with your partner and swap the marks entered for him with yours.
+    Remember, you can only use 2 variables, else you'll get caught.
+Example -
+Input: a = 24, b = 43
+Output: a = 43, = 24
+3.	Now it's time to write a digital watch program using Java which runs to display the current date and time.
+4.	It's time for the highest bid.
+ Ask three friends of yours to enter their bid for a Harry Potter antique broomstick
+ and find out the highest bid by writing a program to calculate so in just a single line.
+
+
+Module-2 Exercise(Java Basics)
+Here are some practice programming questions from this module:
+1.	Accept a three digit number from the user (100 to 999). First, check that the number has only three digits. Then separate each digit of the number and then arrange them in the reverse order such that the middle digit remains the same and first and third digit are swapped.
+Example -
+Input: 347
+Output: 743
+2.	Write a program to accept an array of integers from the user. After accepting the input, arrange the elements in such a way that the largest element is at the last index and the smallest is at the 0th index. The first line of input will denote the number of elements in the array followed by the elements. Finally, output the re-arranged array in ascending order.
+Example -
+Input: 5
+64 1 32 978 12
+Output: 1 12 32 64 978
+3.	Accept an array from a user, duplicate it by creating a similar array and then try to compare it by equating both arrays (using the == operator). The result will be false as the duplicate arrays won't be equal to each other. Try to find the reason behind it and also make the same by using a different function (you might need the help of the internet for this).
+4.	Play a little prank with your friends and swap their names in the attendance website. Use Java to code a program to perform this. Keep in mind that you do not have any additional space for more variables. Use just two.
+Example -
+Input: a = "Harry", b = "Drake"
+Output: a = "Drake", b = "Harry"
+5.	Let's create a basic calculator using Java. The calculator will have the following functions:
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Remainder
+
+Make sure that while performing division the denominator is not zero. And if any user inputs zero, appropriate message should be displayed instead of a break in execution. First ask the user to input the two operands and then output the results of all the functions separately.
+Example -
+Input: a = 23, b = 12
+Output: Add = 35
+Sub = 11
+Mul = 264
+Div = 1
+
+Example -
+Input: a = 23, b = 0
+Output: Add = 23
+Sub = 23
+Mul = 0
+Div = Divide by 0 is not allowed
+
+Module-3 Exercise(Java OOP)
+Here is a set of few exercises which you might want to perform in order to brush up your coding skills:
+1.	Calculate the area of different figures like rectangle, square, circle. Input the operands by the user for side length or radius. For performing the same create a different class Area and make the methods for the different figures. Then in the Main class, use the Area class to perform these operations.
+Example -
+Input: Radius = 3
+Output: 28.26
+2.	Your computer teacher has given you the task of recording the marks of every student in your class. The name, roll number, and marks of every student should be present in your list. Use your Java skills to achieve the same and print the complete list.
+3.	Create an interface called perimeter with a method for calculating the perimeter. Now define this method in the Area class of the previous question and use to calculate the perimeter of the Rectangle in the Main class.
+4.	Create an abstract class 'Animals' with two abstract methods 'cats' and 'dogs'. Now create a class 'Cats' with a method 'cats' which prints "Cats meow" and a class 'Dogs' with a method 'dogs' which prints "Dogs bark", both inheriting the class 'Animals'. Now create an object for each of the subclasses and call their respective methods.
+
